@@ -11,7 +11,7 @@ Página web de viajes astrales desarrollada por **Boris, Jordi, Edgar y Rogue**.
 | **Boris** | Navbar + Hero Image + Fuente personalizada |
 | **Jordi** | Galería de viajes (cards + botón "Contratar") |
 | **Edgar** | Sección "Sobre nosotros" + Pie de página |
-| **Rogue** | Formulario de búsqueda + Formulario de registro + Animaciones |
+| **Roger** | Formulario de búsqueda + Formulario de registro + Animaciones |
 
 ---
 
@@ -53,9 +53,9 @@ Página web de viajes astrales desarrollada por **Boris, Jordi, Edgar y Rogue**.
 - [ ] **Jordi** — Botón "Contratar viaje" con hover animado
 - [ ] **Edgar** — Sección "Sobre nosotros" con texto e imagen
 - [ ] **Edgar** — Pie de página con datos de contacto y redes sociales
-- [ ] **Rogue** — Formulario de búsqueda de viajes (HTML + CSS)
-- [ ] **Rogue** — Formulario de registro de usuario (HTML + CSS)
-- [ ] **Rogue** — Animaciones: hover effects, fade-in al hacer scroll, transiciones
+- [ ] **Roger** — Formulario de búsqueda de viajes (HTML + CSS)
+- [ ] **Roger** — Formulario de registro de usuario (HTML + CSS)
+- [ ] **Roger** — Animaciones: hover effects, fade-in al hacer scroll, transiciones
 
 ### Fase 4 — Pruebas y Entrega
 - [ ] Probar en distintos navegadores (Chrome, Firefox, Edge)
