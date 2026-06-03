@@ -6,7 +6,7 @@
 
 body {
     background-color: #0a0a0f;
-    font-family: Arial, sans-serif;
+    font-family: 'Raleway', sans-serif;
 }
 
 nav {
@@ -19,10 +19,12 @@ nav {
 }
 
 .nav-logo {
+    font-family: 'Orbitron', sans-serif;
     font-size: 24px;
     font-weight: bold;
     color: #a855f7;
     letter-spacing: 2px;
+    text-decoration: none;
 }
 
 .nav-links {
@@ -41,4 +43,68 @@ nav {
 
 .nav-links a:hover {
     color: #a855f7;
+}
+
+/* ── HERO ── */
+
+.hero {
+    position: relative;
+    text-align: center;
+    padding: 160px 20px;
+    min-height: 520px;
+    overflow: hidden;
+}
+
+/* Imagen de fondo con filtro cartoon */
+.hero::before {
+    content: '';
+    position: absolute;
+    inset: 0;
+    background: url('images/rick - copia.webp') 50% 25%/cover no-repeat;
+    filter: saturate(1.5) contrast(1.15);
+    z-index: 0;
+}
+
+/* Capa oscura encima para que el texto se lea */
+.hero::after {
+    content: '';
+    position: absolute;
+    inset: 0;
+    background: rgba(0, 5, 10, 0.52);
+    z-index: 1;
+}
+
+/* El texto debe estar por encima de las capas */
+.hero > * {
+    position: relative;
+    z-index: 2;
+}
+
+.hero-titulo {
+    font-family: 'Orbitron', sans-serif;
+    font-size: 52px;
+    color: #ffffff;
+    margin-bottom: 20px;
+    text-shadow: 0 0 16px rgba(151, 235, 0, 0.9), 0 0 40px rgba(0, 255, 136, 0.5);
+}
+
+.hero-subtitulo {
+    font-size: 20px;
+    color: #ccffcc;
+    margin-bottom: 40px;
+    text-shadow: 0 0 10px rgba(0, 255, 136, 0.6);
+}
+
+.hero-boton {
+    text-decoration: none;
+    background-color: #39ff14;
+    color: #050505;
+    padding: 14px 36px;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 6px;
+}
+
+.hero-boton:hover {
+    background-color: #97eb00;
 }
