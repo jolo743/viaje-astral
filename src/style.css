@@ -45,6 +45,86 @@ nav {
     color: #a855f7;
 }
 
+main {
+    padding: 60px 40px;
+}
+
+.destination-section h2 {
+    color: #a855f7;
+    font-size: 32px;
+    letter-spacing: 3px;
+    margin-bottom: 24px;
+    text-transform: uppercase;
+}
+
+.destination-card {
+    background: linear-gradient(145deg, #0d0d1a, #1a0d2e);
+    border: 2px solid #3d1f6e;
+    border-radius: 12px;
+    padding: 32px;
+    max-width: 600px;
+    box-shadow: 0 0 30px rgba(168, 85, 247, 0.15);
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.destination-card:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 0 40px rgba(168, 85, 247, 0.35);
+}
+
+.destination-card h3 {
+    color: #c4b5d4;
+    font-size: 22px;
+    letter-spacing: 2px;
+    margin-bottom: 12px;
+}
+
+.destination-card p {
+    color: #8a7a9e;
+    font-size: 15px;
+    line-height: 1.6;
+}
+
+.card-actions {
+    display: flex;
+    gap: 12px;
+    margin-top: 24px;
+}
+
+.btn {
+    font-family: inherit;
+    font-size: 14px;
+    letter-spacing: 1px;
+    padding: 10px 20px;
+    border-radius: 8px;
+    border: 2px solid transparent;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+
+.btn-primary {
+    background-color: transparent;
+    color: #a855f7;
+    border-color: #a855f7;
+}
+
+.btn-primary:hover {
+    background-color: #a855f7;
+    color: #0a0a0f;
+    box-shadow: 0 0 20px rgba(168, 85, 247, 0.5);
+}
+
+.btn-secondary {
+    background-color: #a855f7;
+    color: #0a0a0f;
+    border-color: #a855f7;
+    font-weight: bold;
+}
+
+.btn-secondary:hover {
+    background-color: #c084fc;
+    border-color: #c084fc;
+    box-shadow: 0 0 25px rgba(168, 85, 247, 0.6);
 /* ── HERO ── */
 
 .hero {
