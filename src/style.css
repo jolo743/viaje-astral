@@ -51,7 +51,11 @@ nav {
     position: relative;
     text-align: center;
     padding: 160px 20px;
-    min-height: 520px;
+    min-height: 90vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
     overflow: hidden;
 }
 
@@ -60,7 +64,7 @@ nav {
     content: '';
     position: absolute;
     inset: 0;
-    background: url('images/rick - copia.webp') 50% 25%/cover no-repeat;
+    background: url('images/rick - copia.webp') center center/cover no-repeat;
     filter: saturate(1.5) contrast(1.15);
     z-index: 0;
 }
