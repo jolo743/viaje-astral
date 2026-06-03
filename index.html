@@ -1,41 +1,92 @@
-<!DOCTYPE html>
-<html lang="es">
+<!DOCTYPE html>  <!-- Le dice al navegador que esto es HTML5 -->
+<html lang="es">  <!-- Empieza la página, lang="es" indica que está en español -->
+
 <head>
+    <!-- El head no se ve en la página, pero configura cosas importantes -->
+
+    <!-- Permite usar tildes y caracteres especiales como ñ -->
     <meta charset="UTF-8">
+
+    <!-- Hace que la página se vea bien en móvil -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Título que aparece en la pestaña del navegador -->
     <title>WeedWorld</title>
+
+    <!-- Carga las fuentes desde Google Fonts: Orbitron (espacial) y Raleway (texto normal) -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Orbitron:wght@700&family=Raleway&display=swap">
+
+    <!-- Carga nuestro archivo de estilos CSS -->
     <link rel="stylesheet" href="src/style.css">
 </head>
+
 <body>
-    <nav>
-        <div class="nav-logo">WeedWorld</div>
-        <ul class="nav-links">
-            <li><a href="#">MacroFungi</a></li>
-            <li><a href="#">Planeta Verde</a></li>
-            <li><a href="#">Ether Líquido</a></li>
-            <li><a href="#">Luz Prismática</a></li>
-            <li><a href="#">Hiperespacio</a></li>
-        </ul>
-    </nav>
 
-    <section class="about">
-        <div class="about-container">
-            <h2 class="about-title">Sobre Nosotros</h2>
+    <!-- ── ENCABEZADO ── -->
+    <!-- header agrupa todo lo que va en la parte superior: logo y navegación -->
+    <header>
 
-            <p class="about-lead">¿Quién dijo que viajar solo consiste en coger un avión?</p>
+        <!-- nav contiene los enlaces de navegación principales -->
+        <nav>
 
-            <p class="about-text">
-                En <strong>Weed World</strong> creemos que los viajes más extraordinarios no siempre requieren un mapa.
-                Nuestra misión es ofrecer experiencias únicas que permitan explorar nuevas realidades, expandir la imaginación
-                y descubrir destinos más allá de lo convencional.
-            </p>
+            <!-- Logo: <a> para que sea un enlace que lleva al inicio -->
+            <a href="#" class="nav-logo">WeedWorld</a>
 
-            <p class="about-text">
-                Somos un proyecto en crecimiento que busca reinventar la forma de viajar, combinando aventura, misterio
-                y una pizca de "vitaminas de la inspiración" para crear experiencias inolvidables.
-            </p>
-        </div>
-    </section>
+            <!-- Lista de enlaces del menú -->
+            <!-- ul = lista, li = cada elemento, a = enlace -->
+            <!-- El # en href significa que de momento no lleva a ningún sitio -->
+            <ul class="nav-links">
+                <li><a href="#">MacroFungi</a></li>
+                <li><a href="#">Planeta Verde</a></li>
+                <li><a href="#">Ether Líquido</a></li>
+                <li><a href="#">Luz Prismática</a></li>
+                <li><a href="#">Hiperespacio</a></li>
+            </ul>
+
+        </nav>
+
+    </header>
+
+    <!-- ── CONTENIDO PRINCIPAL ── -->
+    <!-- main contiene el contenido principal de la página, solo se usa una vez -->
+    <main>
+
+        <!-- ── HERO ── -->
+        <!-- section agrupa contenido relacionado: aquí la sección de bienvenida -->
+        <section class="hero">
+
+            <!-- Título principal, el texto más grande de la página -->
+            <h1 class="hero-titulo">Viaja más allá de tu mente</h1>
+
+            <!-- Subtítulo, un texto más pequeño debajo del título -->
+            <p class="hero-subtitulo">Explora dimensiones que nunca imaginaste</p>
+
+            <!-- Botón de llamada a la acción -->
+            <a href="#" class="hero-boton">Empieza tu viaje</a>
+
+        </section>
+
+        <!-- ── SOBRE NOSOTROS ── -->
+        <section class="about">
+            <div class="about-container">
+                <h2 class="about-title">Sobre Nosotros</h2>
+
+                <p class="about-lead">¿Quién dijo que viajar solo consiste en coger un avión?</p>
+
+                <p class="about-text">
+                    En <strong>Weed World</strong> creemos que los viajes más extraordinarios no siempre requieren un mapa.
+                    Nuestra misión es ofrecer experiencias únicas que permitan explorar nuevas realidades, expandir la imaginación
+                    y descubrir destinos más allá de lo convencional.
+                </p>
+
+                <p class="about-text">
+                    Somos un proyecto en crecimiento que busca reinventar la forma de viajar, combinando aventura, misterio
+                    y una pizca de "vitaminas de la inspiración" para crear experiencias inolvidables.
+                </p>
+            </div>
+        </section>
+
+    </main>
 
     <footer class="site-footer">
         <div class="footer-container">
