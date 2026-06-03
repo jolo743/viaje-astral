@@ -108,3 +108,100 @@ nav {
 .hero-boton:hover {
     background-color: #97eb00;
 }
+
+/* ── GALERÍA ── */
+
+.galeria {
+    padding: 80px 40px;
+    background-color: #0a0a0f;
+}
+
+.galeria-titulo {
+    font-family: 'Orbitron', sans-serif;
+    font-size: 36px;
+    color: #ffffff;
+    text-align: center;
+    margin-bottom: 48px;
+    letter-spacing: 2px;
+}
+
+.galeria-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+    gap: 28px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.card {
+    background-color: #0d0d1a;
+    border: 1px solid #3d1f6e;
+    border-radius: 10px;
+    overflow: hidden;
+    transition: transform 0.3s, border-color 0.3s;
+}
+
+.card:hover {
+    transform: translateY(-6px);
+    border-color: #39ff14;
+}
+
+.card-imagen {
+    height: 180px;
+}
+
+.card-imagen--c137 {
+    background: linear-gradient(135deg, #1a0a2e, #39ff14 200%);
+    background: linear-gradient(135deg, #0d1f0d, #1a3a1a, #39ff14);
+}
+
+.card-imagen--planeta-verde {
+    background: linear-gradient(135deg, #0a1a08, #1a4a10, #7fff00);
+}
+
+.card-imagen--hiperespacio {
+    background: linear-gradient(135deg, #0a0a2e, #1a0a4e, #a855f7);
+}
+
+.card-imagen--ether {
+    background: linear-gradient(135deg, #001a2e, #003a5e, #00e5ff);
+}
+
+.card-contenido {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.card-titulo {
+    font-family: 'Orbitron', sans-serif;
+    font-size: 16px;
+    color: #ffffff;
+    letter-spacing: 1px;
+}
+
+.card-descripcion {
+    font-size: 14px;
+    color: #c4b5d4;
+    line-height: 1.6;
+}
+
+.card-boton {
+    display: inline-block;
+    text-decoration: none;
+    background-color: transparent;
+    color: #39ff14;
+    border: 2px solid #39ff14;
+    padding: 10px 20px;
+    font-size: 14px;
+    font-weight: bold;
+    border-radius: 6px;
+    text-align: center;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.card-boton:hover {
+    background-color: #39ff14;
+    color: #050505;
+}
